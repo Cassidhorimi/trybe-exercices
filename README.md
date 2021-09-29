@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contam todas as atividades de aprendizagem desenvolvidas por Cassid Hajimi Horimi (https://www.linkedin.com/in/cassidhorimi):rocket:
+Este repositório contam todas as atividades de aprendizagem desenvolvidas por Cassid Hajimi Horimi (https://www.linkedin.com/in/cassidhorimi) :rocket:
 
 "A Trybe  são uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde as pessoas s paga quando conseguir um bom trabalho."
 
