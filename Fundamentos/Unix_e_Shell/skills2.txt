@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Node.js
+MySQL
+NoSQL
+Python
+Soft skills
