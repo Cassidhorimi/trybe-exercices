@@ -1,0 +1,4 @@
+Sim
+Nao
+Talvez sim
+Talvez nao
