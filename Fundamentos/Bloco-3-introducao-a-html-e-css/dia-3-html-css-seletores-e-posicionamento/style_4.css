@@ -1,0 +1,47 @@
+ol li {
+    background-color: yellow;
+}
+ol li:nth-child(even){
+    color: green;
+}
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+.header {
+    color: red;
+}
+.italic {
+    font-size: 40px;
+}
+.blue {
+    color: blue;
+}
+.java {
+    background-color: pink;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: 600;
+}
+ul li:nth-child(1n) :hover {
+    font-weight: 900;
+    background-color: orangered;
+}
+ul li:nth-child(2n) :hover {
+    font-weight: 900;
+    background-color: green;
+}
+ul li:nth-child(3n) :hover {
+    font-weight: 900;
+    background-color: black;
+}
+ul li:nth-child(4n) :hover {
+    font-weight: 900;
+    background-color: yellow;
+}
+ul li:nth-child(5n) :hover {
+    font-weight: 900;
+    background-color: lightgreen;
+}
