@@ -93,7 +93,7 @@ switch (chess.toLowerCase()) {
   default:
     console.log("error");
     break;
-} */ 
+} */
 
 //7.
 
@@ -149,6 +149,7 @@ else {
 }
 */
 //10.
+/*
 const custo = 50;
 const venda = 100;
 let custoTotal = custo + (custo * 0.2);
@@ -159,3 +160,47 @@ if (custo > 0 && venda > 0) {
 else {
   console.log("error");
 }
+*/
+//11.
+/*
+let salario = 7000;
+let salarioBase = 0;
+let inss = 0;
+if (salario > 0 && salario <= 1556.94) {
+  inss = salario * 0.08;
+  salarioBase = salario - inss;
+} else if (salario > 1556.94 && salario <= 2594.92) {
+  inss = salario * 0.09;
+  salarioBase = salario - inss;
+} else if (salario > 2594.92 && salario <= 5182.82) {
+  inss = salario * 0.11;
+  salarioBase = salario - inss;
+} else if (salario > 5182.82) {
+  inss = 570.88;
+  salarioBase = salario - inss;
+} else if (salario < 0) {
+  console.log("error")
+}
+else {
+  console.log("Ensira o seu salario");
+}
+if (salarioBase <= 1903.98) {
+  salario = salarioBase - 0;
+  console.log(salario)
+} else if (salarioBase > 1903.98 && salarioBase <= 2826.65) {
+  salario = (salarioBase - ((salarioBase * 0.075) - 142.80));
+  console.log(salario);
+} else if (salarioBase > 2826.65 && salarioBase <= 3751.05) {
+  salario = (salarioBase - ((salarioBase * 0.15) - 354.80));
+  console.log(salario);
+} else if (salarioBase > 3751.05 && salarioBase <= 4664.68) {
+  salario = (salarioBase - ((salarioBase * 0.225) - 636.13));
+  console.log(salario);
+} else if (salarioBase > 4664.68) {
+  salario = (salarioBase - ((salarioBase * 0.275) - 869.36));
+  console.log(salario);
+}
+else {
+  console.log();
+}
+*/
