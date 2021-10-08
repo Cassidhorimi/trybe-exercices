@@ -135,3 +135,27 @@ else {
   console.log(false);
 }
 */
+//9.
+/*
+const x = 7;
+const y = 4;
+const z = 6;
+
+if (x % 2 === 1 || y % 2 === 1 || z % 2 === 1) {
+  console.log(true);
+}
+else {
+  console.log(false);
+}
+*/
+//10.
+const custo = 50;
+const venda = 100;
+let custoTotal = custo + (custo * 0.2);
+
+if (custo > 0 && venda > 0) {
+  console.log( ((venda - custoTotal) * 1000) );
+}
+else {
+  console.log("error");
+}
