@@ -1,9 +1,20 @@
-const myName = "Cassid";
-const birthCity = "Apucarana";
-let birthYear = 1995;
-birthYear = 2030;
-birthCity = Londrina;
-// Deu erro porque birthCity é uma constante e não pode ser reatribuida
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
+//Para testar alguma linha de codigo descomente ela!
+//1.
+const a = 2;
+const b = 3;
+
+//console.log(a + b);
+//console.log(a - b);
+//console.log(a * b);
+//console.log(a / b);
+//console.log(a % b);
+
+//2.
+
+/* if ( a > b ) {
+  console.log(a); 
+}
+else {
+  console.log(b);
+} */
+

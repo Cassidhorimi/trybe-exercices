@@ -1,6 +1,9 @@
-const base = 5;
-let height = 8;
-const area = base * height;
-console.log(area)
-const perimeter = base + base + height + height;
-console.log(perimeter);
+const myName = "Cassid";
+const birthCity = "Apucarana";
+let birthYear = 1995;
+birthYear = 2030;
+birthCity = Londrina;
+// Deu erro porque birthCity é uma constante e não pode ser reatribuida
+console.log(myName);
+console.log(birthCity);
+console.log(birthYear);
