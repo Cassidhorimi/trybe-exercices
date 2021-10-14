@@ -76,3 +76,47 @@ else {
   console.log('Error');
 }
 */
+//////////////////////////////6.//////////////////////////////////////////
+/*
+let n = 7;
+let ast = '';
+let x = (n + 1) / 2;
+let y = x;
+let z = x;
+
+if (n > 1) {
+  for (let i = 1; i <= x; i += 1) {
+    ast = '';
+    for (let a = 1; a <= n; a += 1) {
+      if (a === y || a == z || i == x) {
+        ast += '*';
+      } else {
+        ast += ' ';
+      }
+    }
+    console.log(ast);
+    ast = '';
+    y -= 1;
+    z += 1;
+  }
+}
+else {
+  console.log('Error');
+}
+*/
+/////////////////////////////7.//////////////////////////////////////////////
+/*
+let x = 1;
+let p = 1;
+
+for(let n = 0; n <= x; n += 1){
+  if (x % n === 0){
+    p += 1;
+  }
+}
+if ( p <= 3 && x != 1){
+  console.log(x + ' eh primo!');
+} else {
+  console.log(x + ' nao eh primo!');
+}
+*/
