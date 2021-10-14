@@ -76,3 +76,28 @@ if (n > 1) {
 else {
   console.log('Error');
 }*/
+
+
+let n = 6;
+let ast = '';
+let y =  (n - 1)/2;
+let z = (n - 1)/2;
+
+if (n > 1) {
+  for (let i = 0; i <= (n + 1) / 2; i += 1) {
+    for (let a = 0; a <= n; a += 1) {
+      if (a > y && a < z) {
+        ast += '*';
+      } else {
+        ast += ' ';
+      }
+    }
+    console.log(ast);
+    ast = '';
+    y -= 1;
+    z += 1;
+  }
+}
+else {
+  console.log('Error');
+}
