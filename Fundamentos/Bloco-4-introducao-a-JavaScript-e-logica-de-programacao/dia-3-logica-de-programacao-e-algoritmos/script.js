@@ -4,7 +4,7 @@ let n = 14;
 let ast = '';
 
 if (n > 1) {
-  for (leti = 0; i < n; i += 1) {
+  for (let i = 0; i < n; i += 1) {
     for (let x = 0; x < n; x += 1) {
       ast += '*';
     }
