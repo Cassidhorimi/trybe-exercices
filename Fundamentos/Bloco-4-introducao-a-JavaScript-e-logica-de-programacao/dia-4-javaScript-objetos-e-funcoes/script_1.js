@@ -14,3 +14,7 @@ let athlete = {
   }
 }
 console.log('A jogadora ' + athlete.name + ' ' + athlete.lastName + ' tem ' + athlete.age + ' anos de idade.');
+
+athlete['bestInTheWorld'] = [2006, 2007, 2008, 2009, 2010, 2018];
+
+console.table(athlete);
