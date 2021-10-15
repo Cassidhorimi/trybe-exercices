@@ -4,7 +4,7 @@ let lastName = 'Silva';
 let age = 34;
 let medals = { golden: 2, silver: 3 };
 */
-let atleta = {
+let athlete = {
   name: 'Marta',
   lastName: 'Silva',
   age: 34,
@@ -13,4 +13,4 @@ let atleta = {
     silver: 3,
   }
 }
-console.table(atleta);
+console.log('A jogadora ' + athlete.name + ' ' + athlete.lastName + ' tem ' + athlete.age + ' anos de idade.');
