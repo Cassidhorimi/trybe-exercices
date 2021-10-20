@@ -26,7 +26,7 @@ criadorDeFilho.innerText = 'Filho'
 criadorDeFilho.id = 'filhoDoOndeEstou'
 let criadorDeFilhoDoFilho = document.createElement('section');
 criadorDeFilho.innerText = 'Filho'
-criadorDeFilho.id = 'FilhoDofilhoDoFIlho'
+criadorDeFilho.id = 'filhoDoFilhoDoFIlho'
 
 pai.appendChild(criadorDeIrmao);
 ondeEstou.appendChild(criadorDeFilho);
@@ -34,3 +34,13 @@ filhoDoFilho.appendChild(criadorDeFilhoDoFilho)
 
 let terceiroIrmao = criadorDeFilhoDoFilho.parentElement.parentElement.nextElementSibling;
 console.log(terceiroIrmao)
+
+for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
+  const currentChildren = pai.childNodes[index];
+  if (currentChildren.id !== 'elementoOndeVoceEsta') {
+    currentChildren.remove();
+  }
+}
+
+let segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+segundoEUltimoFilhoDoFilho.remove();
