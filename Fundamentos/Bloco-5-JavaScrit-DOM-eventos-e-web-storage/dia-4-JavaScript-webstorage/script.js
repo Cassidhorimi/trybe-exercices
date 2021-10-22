@@ -47,7 +47,7 @@ window.onload = function () {
     })
   }
 
-  function fontSize(height) {
+  function fontHeight(height) {
     paragraph.style.lineHeight = height;
     localStorage.setItem("fontHeight", height);
   }
@@ -55,7 +55,7 @@ window.onload = function () {
   let btnFontHeight = document.querySelectorAll('#height>button');
   for (let i = 0; i < btnFontHeight.length; i++) {
     btnFontHeight[i].addEventListener("click", function (event) {
-      fontSize(event.target.innerHTML);
+      fontHeight(event.target.innerHTML);
     })
   }
 

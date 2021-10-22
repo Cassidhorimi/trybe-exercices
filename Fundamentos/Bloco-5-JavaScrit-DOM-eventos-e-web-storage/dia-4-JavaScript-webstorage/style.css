@@ -38,4 +38,5 @@ body {
 .paragraph {
   font-size:15px;
   line-height: normal;
+  max-width: 100%;
 }
