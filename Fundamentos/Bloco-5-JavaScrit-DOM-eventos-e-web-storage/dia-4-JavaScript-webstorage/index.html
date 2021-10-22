@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Reader Text</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="title">Leitor de Texto</h1>
+  </header>
+
+  <main>
+    <div class="buttons">
+      <section id="background-color" class="button">
+        <button>white</button>
+        <button>lightgray</button>
+        <button>darkgray</button>
+        <button>black</button>
+        <button>teal</button>
+      </section>
+      <section id="text-color">
+        <button>white</button>
+        <button>black</button>
+        <button>lightGray</button>
+        <button>lightBlue</button>
+      </section>
+      <section id="font-size" class="button">
+        <button>14</button>
+        <button>16</button>
+        <button>20</button>
+        <button>24</button>
+      </section>
+      <section id="height" class="button">
+        <button>1</button>
+        <button>normal</button>
+        <button>1.5</button>
+        <button>2.0</button>
+      </section>
+      <section id="font-family" class="button">
+        <button>Sans-serif</button>
+        <button>serif</button>
+      </section>
+    </div>
+    <div class="input-text">
+      <textarea cols="60" rows="10" placeholder="Enter Your Text" class="text" required></textarea>
+    </div>
+    <div class="submit-btn">
+      <button id="input-btn" class="button">Submit</button>
+    </div>
+    <article class="paragraph">
+      <p class="safeText"></p>
+    </article>
+
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
