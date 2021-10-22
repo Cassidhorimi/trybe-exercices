@@ -1,0 +1,42 @@
+body {
+  margin: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: darkgrey;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-text {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+
+.submit-btn {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  font-size:15px;
+  line-height: normal;
+  max-width: 100%;
+}
