@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 95%;
+  font-family: 'Helvetica', 'Arial',sans-serif;
+  margin: 40px auto 15px auto;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-content {
+  border: 2px solid black;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+
+.text:focus{
+  box-shadow:  0 3px 10px rgb(20, 33, 61);
+}
+
+.content-title {
+  margin-left: 15px;
+}
+
+.text-aling{
+  text-align: center;
+}
+
+#radio-btn-moradia {
+  width: 95%;
+  margin: 0px 15px 15px;
+}
+
+.radio-options {
+  margin: 0px 50px 7px;
+  display: inline-block;
+}
+
+.text {
+  width: 99%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset rgb(240, 240, 240);
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.city {
+  width: 99%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset rgb(240, 240, 240);
+  font-size: 0.875rem;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.state {
+  width: 99%;
+  margin: 15px auto;
+}
+
+.state-brazil {
+  text-align: center;
+  width: 75px;
+}
+
+#moradia {
+ border-radius: 5px;
+}
+
+.moradia-container {
+  background-color: white;
+}
+
+.date {
+  width: 15%;
+  margin: 15px auto;
+}
+
+.btn {
+  width: 99%;
+  padding: 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: #fff;
+  border: 2px solid #1D3557;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #1D3557;
+  border: 2px solid #1D3557;
+  cursor: pointer;
+}
