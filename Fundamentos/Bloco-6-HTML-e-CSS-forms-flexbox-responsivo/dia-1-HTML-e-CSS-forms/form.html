@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="title" id="title-content">Formulário de Currículo</h1>
+  </header>
+  <main>
+    <section id="form-content">
+      <div>
+        <form action="" method="get" id="form">
+          <fieldset id="pessoal-content" class="form-content">
+            <legend class="content-title">Pessoal</legend>
+            <div class="text-aling">
+              <div class="input-text">
+                <label for="name">Nome</label>
+                <input type="text" maxlength="40" id="name" class="text" required>
+              </div>
+              <div class="input-text">
+                <label for="mail" class="mail">E-mail</label>
+                <input type="text" maxlength="50" id="mail" class="text" required>
+              </div>
+              <div class="input-text">
+                <label for="cpf">CPF</label>
+                <input type="number" maxlength="11" id="cpf" class="text" required>
+              </div>
+              <div class="input-text">
+                <label for="endereco">Endereço</label>
+                <input type="text" maxlength="200" id="endereco" class="text" required>
+              </div>
+              <div class="state">
+                <label for="estados-brasil">Estado</label>
+                <select name="estado" id="estados-brasil" class="state-brazil" required>
+                </select>
+              </div>
+              <div class="">
+                <label for="cidade">Cidade</label>
+                <input type="text" maxlength="28" id="endereco" class="city" required>
+              </div>
+              <div id="radio-btn-moradia">
+                <fieldset id="moradia">
+                  <legend>Moradia</legend>
+                  <label for="" name="moradia" id="labael-moradia" class="radio-options" required>
+                    <input type="radio" name="moradia" class="radio">Casa
+                  </label>
+                  <label for="" name="moradia" id="labael-moradia" class="radio-options" required>
+                    <input type="radio" name="moradia" class="radio">Apartamento
+                  </label>
+              </div>
+          </fieldset>
+      </div>
+      </fieldset>
+
+      <fieldset class="form-content">
+        <legend class="content-title">Profissional</legend>
+        <div class="text-aling">
+          <div class="input-text">
+            <label for="resume">Resumo último emprego</label>
+            <textarea name="" id="resume" cols="100" rows="10" maxlength="1000" class="text" required></textarea>
+          </div>
+          <div class="input-text">
+            <label for="cargo">Cargo</label>
+              <input type="text" maxlength="40" class="text" id="cargo" required>
+          </div>
+          <div class="input-text">
+            <label for="description">Descrição do cargo
+            <textarea name="descricao-cargo" id="description" cols="30" rows="10" class="text"></textarea>
+          </div>
+          <div  class="date">
+            <label for="date">Data de início
+            </label>
+            <input type="date" id="date" >
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </fieldset>
+      </form>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
