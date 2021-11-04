@@ -61,10 +61,17 @@
   color: rgb(100, 100, 100);
 }
 
+hr {
+  margin: 25px auto 5px;
+  width: 100px;
+  height: 1px;
+  background-color: rgb(100, 100, 100);
+  border: none;
+}
+
 .footer {
   margin: 15px 650px;
   height: 40px;
-  border-top: 1px solid rgb(100, 100, 100) ;
   display: flex;
   justify-content: center;
   align-items: flex-end;
