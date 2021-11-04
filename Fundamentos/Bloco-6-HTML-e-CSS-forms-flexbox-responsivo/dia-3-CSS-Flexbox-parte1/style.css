@@ -50,38 +50,15 @@
   margin: 5px auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
 }
 
-.techs-1 div {
+.techs div {
+  text-align: center;
   background-color: rgb(245, 245, 245);
   box-shadow: 1px 2px 2px rgb(200, 200, 200);
+  margin: 2px;
   border-radius: 15px;
-  text-align: center;
   color: rgb(100, 100, 100);
-}
-
-.techs-2 div {
-  background-color: rgb(245, 245, 245);
-  box-shadow: 1px 2px 2px rgb(200, 200, 200);
-  border-radius: 15px;
-  text-align: center;
-  color: rgb(100, 100, 100);
-}
-
-.techs-1 {
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  margin-bottom: 15px;
-}
-
-.techs-2 {
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
 }
 
 .footer {
