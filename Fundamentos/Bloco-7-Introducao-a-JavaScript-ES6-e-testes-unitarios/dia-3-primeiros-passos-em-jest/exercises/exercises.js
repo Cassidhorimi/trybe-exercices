@@ -65,7 +65,7 @@ function decode(string) {
 }
 
 function techList(array, name) {
-  let sortArray = array.sort();
+  const sortArray = array.sort();
   let tech = [];
   if (array.length === 0) {
     return 'Vazio!';
