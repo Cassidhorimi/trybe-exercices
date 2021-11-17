@@ -1,8 +1,8 @@
 // 1
 
 const mailGenerator = (name) => {
-  const mail = `${name.replace(' ', '_').toLocaleLowerCase()}@trybe.com`;
-  return {name, email: mail};
+  const email = `${name.replace(' ', '_').toLocaleLowerCase()}@trybe.com`;
+  return {name, email};
 }
 
 const newEmployees = (callback) => {
