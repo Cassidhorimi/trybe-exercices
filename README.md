@@ -75,7 +75,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 9-1: JavaScript Assíncrono e Callbacks
 - [x] 9-2: JavaScript Promises
-- [ ] 9-3: Projeto - Carrinho de Compras
+- [ ] 9-3: Jest - Testes Assíncronos
+- [ ] 9-4: Projeto - Carrinho de Compras
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
