@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: sans-serif;
+}
+#title {
+  text-align: center;
+}
+
+#coin-table {
+  width: 85%;
+  margin: 50px auto;
+  font-size: 20px;
+  background-color: rgb(150, 150, 150);
+  color: rgb(225, 225, 225);
+  border-radius: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+td{
+  font-size: 18px;
+}
