@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(200, 200, 200);
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 15px;
+}
+
+.card {
+  background-color: rgb(192, 192, 192);
+  border-radius: 5px;
+  gap: 12px;
+  padding: 25px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 3px 5px 0px rgb(150, 150, 150);
+}
+
+.footer {
+  background: rgb(51, 51, 51);
+  color: white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
