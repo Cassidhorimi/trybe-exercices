@@ -24,3 +24,12 @@ body {
   flex-wrap: wrap;
   margin: 10px 10px;
 }
+
+.link {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+.link:hover {
+  color: rgb(50, 50, 50);
+}
