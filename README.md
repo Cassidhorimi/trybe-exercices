@@ -80,16 +80,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 10: Introdução - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: Projeto - Movie Cards Library
+- [x] 10-1: 'Hello, world!' no React!
+- [x] 10-2: Componentes React
+- [x] 10-3: Projeto - Solar System
 
-##### Bloco 12: React
+##### Bloco 11: React
 
-- [ ] 12-1: Components com estado
-- [ ] 12-2: Eventos e formulÃ¡rios no React
+- [x] 12-1: Components com estado e Eventos
+- [x] 12-2: FormulÃ¡rios no React
 - [ ] 12-3: Projeto - Movie Cards Library Stateful
 
 ##### Bloco 13: React
