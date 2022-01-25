@@ -86,29 +86,29 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 10-2: Componentes React
 - [x] 10-3: Projeto - Solar System
 
-##### Bloco 11: React
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 11-1: Components com estado e Eventos
 - [x] 11-2: Formulários no React
-- [ ] 11-3: Projeto - Tryunfo
+- [x] 11-3: Projeto - Tryunfo
 
-##### Bloco 13: React
+##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-- [ ] 13-1: Melhorando o reuso de componentes: props.children e PropTypes
-- [ ] 13-2: Ciclo de vida de componentes em React
-- [ ] 13-3: React Router
-- [ ] 13-4: Projeto - Movie Cards Library CRUD
+- [x] 12-1: Ciclo de vida de componentes em React
+- [x] 12-2: React Router
+- [x] 12-3: Projeto - Trybetunes
 
-##### Bloco 14: Metodologias ágeis
+##### Bloco 13: Metodologias ágeis
 
-- [ ] 14-1: Metodologias ágeis
-- [ ] 14-2: Projeto - Frontend Online Store
+- [x] 13-1: Metodologias ágeis
+- [x] 13-2: Projeto - Frontend Online Store
 
-##### Bloco 15: Testes em React
+##### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 15-1: Testando React com a React Testing Library
-- [ ] 15-2: Testando React com a React Testing Library - Parte 2
-- [ ] 15-3: Projeto - Testes em React
+- [x] 14-1: RTL- Primeiros Passos
+- [ ] 14-2: RTL- Mocks e Inputs
+- [ ] 14-3: RTL- Testando React Router
+- [ ] 14-4: Projeto - Testes em React
 
 ##### Bloco 16: Introdução ao Redux
 
