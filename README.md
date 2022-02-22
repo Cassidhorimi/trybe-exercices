@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-2: HTML & CSS - Primeiros passos em CSS
 - [x] 3-3: HTML & CSS - Seletores e posicionamento
 - [x] 3-4: HTML Semântico
-- [x] 3-5: Projeto - HTML & CSS
+- [x] 3-5: Projeto - HTML & CSS - individual
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-2: JavaScript - Array e loop For
 - [x] 4-3: JavaScript - Lógica de Programação e Algoritmos
 - [x] 4-4: JavaScript - Objetos e funções
-- [x] 4-5: Projeto - Playground Functions
+- [x] 4-5: Projeto - Playground Functions - individual
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-2: JavaScript - Trabalhando com elementos
 - [x] 5-3: JavaScript - Eventos
 - [x] 5-4: JavaScript - Web Storage
-- [x] 5-5: Projeto - Meme Generator
-- [x] 5-6: Projeto - Arte com Pixels
-- [x] 5-7: Projeto - Lista de tarefas
-- [x] 5-7: Projeto - Adivinhe a Cor
-- [x] 5-7: Projeto - Carta Misteriosa
+- [x] 5-5: Projeto - Meme Generator - individual
+- [x] 5-6: Projeto - Arte com Pixels - individual
+- [x] 5-7: Projeto - Lista de tarefas - individual
+- [x] 5-7: Projeto - Adivinhe a Cor - individual
+- [x] 5-7: Projeto - Carta Misteriosa - individual
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -54,14 +54,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-3: CSS Flexbox - Part 1
 - [x] 6-4: CSS Flexbox - Part 2
 - [x] 6-5: CSS Responsivo - Mobile First
-- [x] 6-6: Projeto - TrybeWarts
+- [x] 6-6: Projeto - TrybeWarts - dupla
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [x] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7-2: JavaScript ES6 - Objects
 - [x] 7-3: Testes unitários em JavaScript
-- [x] 7-4: Projeto - JavaScript Testes Unitários
+- [x] 7-4: Projeto - JavaScript Testes Unitários - individual
 
 ##### Bloco 8: JavaScript ES6
 
@@ -69,14 +69,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-2: JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8-3: JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8-4: JavaScript ES6 - spread operator, rest parameter, destructuring e mais
-- [x] 8-5: Projeto - Zoo functions
+- [x] 8-5: Projeto - Zoo functions - individual
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
 - [x] 9-1: JavaScript Assíncrono e Callbacks
 - [x] 9-2: JavaScript Promises
 - [x] 9-3: Jest - Testes Assíncronos
-- [x] 9-4: Projeto - Carrinho de Compras
+- [x] 9-4: Projeto - Carrinho de Compras - individual
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
@@ -84,49 +84,49 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 10-1: 'Hello, world!' no React!
 - [x] 10-2: Componentes React
-- [x] 10-3: Projeto - Solar System
+- [x] 10-3: Projeto - Solar System - individual
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 11-1: Components com estado e Eventos
 - [x] 11-2: Formulários no React
-- [x] 11-3: Projeto - Tryunfo
+- [x] 11-3: Projeto - Tryunfo - individual
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
 - [x] 12-1: Ciclo de vida de componentes em React
 - [x] 12-2: React Router
-- [x] 12-3: Projeto - Trybetunes
+- [x] 12-3: Projeto - Trybetunes - individual
 
 ##### Bloco 13: Metodologias ágeis
 
 - [x] 13-1: Metodologias ágeis
-- [x] 13-2: Projeto - Frontend Online Store
+- [x] 13-2: Projeto - Frontend Online Store - Grupo
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
 - [x] 14-1: RTL- Primeiros Passos
-- [ ] 14-2: RTL- Mocks e Inputs
-- [ ] 14-3: RTL- Testando React Router
-- [ ] 14-4: Projeto - Testes em React
+- [x] 14-2: RTL- Mocks e Inputs
+- [x] 14-3: RTL- Testando React Router
+- [x] 14-4: Projeto - Testes em React - individual
 
-##### Bloco 16: Introdução ao Redux
+##### Bloco 15: Introdução ao Redux
 
-- [ ] 16-1: Introdução ao Redux
-- [ ] 16-2: React com Redux - Parte 1
-- [ ] 16-3: React com Redux - Prática
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: Testes síncronos com React-Redux
-- [ ] 16-6: Projeto - Tabela com filtros de dados
+- [x] 15-1: Introdução ao Redux
+- [x] 15-2: Usando React no Redux
+- [x] 15-3: Usando React no Redux - Prática
+- [x] 15-4: Usando React no Redux - async
+- [x] 15-5: Testes em React-Redux
+- [x] 15-6: Projeto - Trybe Wallet - individual
 
-##### Bloco 17: Projeto React
+##### Bloco 16: Projeto React - Grupo
 
-- [ ] 17-1: Projeto - Jogo de Trivia
+- [x] 16-1: Projeto - Jogo de Trivia - grupo
 
-##### Bloco 18: React & Context API
+##### Bloco 17: React & Context API
 
-- [ ] 18-1: Context API do React
-- [ ] 18-2: React Hooks - useState e useContext
+- [x] 17-1: Context API do React
+- [x] 17-2: React Hooks - useState e useContext
 - [ ] 18-3: React Hooks - useEffect e Hooks customizados
 - [ ] 18-4: Projeto - StarWars Datatable com Context API e Hooks
 
