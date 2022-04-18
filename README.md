@@ -148,23 +148,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 20-1: Introdução - Banco de dados relacionais
 - [x] 20-1: Banco de dados SQL
 - [x] 20-2: Encontrando dados em um banco de dados
-- [ ] 20-3: Filtrando dados de forma específica
-- [ ] 20-4: Manipulandos tabelas
-- [ ] 20-5: Projeto - All For One
+- [x] 20-3: Filtrando dados de forma específica
+- [x] 20-4: Manipulandos tabelas
+- [x] 20-5: Projeto - All For One
 
 ##### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [ ] 21-1: Funções mais usadas no SQL
-- [ ] 21-2: Descomplicando JOINs
-- [ ] 21-3: Transformando ideias em um modelo de banco de dados
-- [ ] 21-4: Projeto - Aula ao vivo + One For All
+- [x] 21-1: Funções mais usadas no SQL
+- [x] 21-2: Descomplicando JOINs
+- [x] 21-3: Transformando ideias em um modelo de banco de dados
+- [x] 21-4: Projeto - Aula ao vivo + One For All
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 22-1: Intro - Node.js
-- [ ] 22-1: Node.js - Um motor JavaScript
-- [ ] 22-2: Node.js - Fluxo Assíncrono
-- [ ] 22-3: Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [x] 22-1: Intro - Node.js
+- [x] 22-1: Node.js - Um motor JavaScript
+- [x] 22-2: Node.js - Fluxo Assíncrono
+- [x] 22-3: Mocha, Chai e Sinon - Testes de Back-end com Node.js
 - [ ] 22-4: Express - HTTP com Node.js
 - [ ] 22-5: Express - Middlewares
 - [ ] 22-6: Projeto - Talker Manager
