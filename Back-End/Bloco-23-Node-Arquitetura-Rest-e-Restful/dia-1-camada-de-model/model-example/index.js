@@ -9,15 +9,18 @@ const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-app.get('/authors', Author.getAll);
+app.all('/');
 
-app.get('/authors/:id', Author.findById);
+app.route('/authors')
+  .get(Author.getAll)
+  .post(Author.create);
 
-app.post('/authors', Author.create);
+app.route('/authors/:id')
+  .get(Author.findById);
 
-app.get('/books', Book.getAllOrFindById);
-
-app.post('/books', Book.create);
+app.route('/books')
+  .get(Book.getAllOrFindById)
+  .post(Book.create);
 
 app.listen(PORT, () => {
   console.log(`Listening to port ${PORT}`);

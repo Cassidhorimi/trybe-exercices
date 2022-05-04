@@ -26,6 +26,12 @@ const create = async (title, authorId) => {
 
   if(!validBook) return false;
 
+  if(title === undefined || authorId === undefined) {
+    const [book] = await Book.create(null, null);
+
+    return ({ title, authorId });
+  }
+
   const [book] = await Book.create(title, authorId);
 
   return ({ title, authorId });
