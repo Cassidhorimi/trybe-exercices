@@ -1,30 +1,38 @@
 const Author = require('../services/Authors');
 
 const getAll = async (req, res) => {
-  const authors = await Author.getAll();
-  if (!authors) return res.status(500).json({ message: 'Internal Server Error' });
+  try {
+    const authors = await Author.getAll();  
 
-  res.status(200).json(authors);
+    return res.status(200).json(authors);
+    
+  } catch (error) {
+    return res.status(404).json({ message: error.message });
+  }
 }
 
 const findById = async (req, res) => {
-  const { id } = req.params;
+  try {
+    const { id } = req.params;
+    const author = await Author.findById(id);
 
-  const author = await Author.findById(id);
-
-  if (!author) return res.status(404).json({ message: 'Not found' });
-
-  res.status(200).json(author);
+    return res.status(200).json(author);  
+  } catch (error) {
+    return res.status(404).json({ message: 'Not Found' });
+  }
 }
 
-const create = async (req, res) => {
-  const { first_name, middle_name, last_name } = req.body;
+const create = async (req, res, next) => {
+  try {
+    const { first_name, middle_name, last_name } = req.body;
+    const author = await Author.create(first_name, middle_name, last_name);
 
-  const author = await Author.create(first_name, middle_name, last_name);
+    if(!author) next(e);
 
-  if(!author) return res.status(400).json({ message: 'Invalid Data' });
-
-  res.status(201).json(author);
+    return res.status(201).json(author);
+  } catch (error) {
+    return res.status(400).json({ message: 'Invalid Data' });
+  }
 }
 
 module.exports = {
