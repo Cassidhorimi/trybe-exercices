@@ -1,5 +1,3 @@
-// ./index.ts
-
 import { exit } from "process";
 import readline from "readline-sync";
 import Months from "./exercices2";
