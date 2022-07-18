@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contam todas as atividades de aprendizagem desenvolvidas por Cassid Hajimi Horimi (https://www.linkedin.com/in/cassidhorimi) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por Cassid Hajimi Horimi (https://www.linkedin.com/in/cassidhorimi) :rocket:
 
 "A Trybe  são uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde as pessoas s paga quando conseguir um bom trabalho."
 
@@ -10,8 +10,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [x] 1-3: Unix & Shell- Part 1
-- [x] 1-4: Unix & Shell- Part 2
+- [x] 1-1: Unix & Shell- Part 1
+- [x] 1-2: Unix & Shell- Part 2
 
 ##### Bloco 2: Git & GitHub
 
@@ -204,16 +204,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: Introdução à Orientação a Objetos
-- [ ] 27-2: Herança e Interfaces
-- [ ] 27-3: Polimorfismo
-- [ ] 27-4: SOLID - Introdução e Princípios S, O e D
-- [ ] 27-5: SOLID - Princípios L e I
-- [ ] 27-6: Projeto - Trybers and Dragons
+- [x] 27-1: Introdução à Orientação a Objetos
+- [x] 27-2: Herança e Interfaces
+- [x] 27-3: Polimorfismo
+- [x] 27-4: SOLID - Introdução e Princípios S, O e D
+- [x] 27-5: SOLID - Princípios L e I
+- [x] 27-6: Projeto - Trybers and Dragons
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: Projeto - Trybe Futebol Clube
+- [x] 28-1: Projeto - Trybe Futebol Clube
 
 ##### Bloco 29: Introdução ao MongoDB
 
