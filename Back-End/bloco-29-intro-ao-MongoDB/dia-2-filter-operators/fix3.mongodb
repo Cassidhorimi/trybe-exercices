@@ -1,0 +1,19 @@
+use('busines');
+
+db.restaurants
+  .find({}, {
+    _id: false, rating: true, name: true
+  })
+  .sort({
+    name: 1
+  });
+
+db.restaurants
+  .find({}, {
+    _id: false,
+    rating: true,
+    name: true,
+  })
+  .sort({
+    rating: -1
+  });
