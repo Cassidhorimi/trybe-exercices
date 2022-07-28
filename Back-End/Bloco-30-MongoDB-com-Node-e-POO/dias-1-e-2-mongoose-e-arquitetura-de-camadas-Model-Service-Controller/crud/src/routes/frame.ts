@@ -1,0 +1,20 @@
+import { Router } from 'express';
+import FrameController from '../controllers/Frame';
+import FrameService from '../services/Frame';
+import FrameModel from '../models/Frame';
+
+const route = Router();
+
+const frame = new FrameModel();
+const frameService = new FrameService(frame);
+const frameController = new FrameController(frameService);
+
+const frameId = '/frame/:id';
+
+route.post('/frame', (req, res) => frameController.create(req, res));
+route.get(frameId, (req, res) => frameController.readOne(req, res));
+route.get('/frame', (req, res) => frameController.read(req, res));
+route.delete(frameId, (req, res) => frameController.destroy(req, res));
+route.put(frameId, (req, res) => frameController.update(req, res));
+
+export default route;
