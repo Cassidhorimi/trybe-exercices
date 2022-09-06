@@ -133,7 +133,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 19: Projeto Final de Front-end
 
 - [x] 18-1: Projeto - App de Receitas
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+
+## Desenvolvimento Back-end :white_check_mark:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
@@ -217,28 +218,28 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: Introdução - NoSQL
-- [ ] 29-1: MongoDB - Introdução
-- [ ] 29-2: Filter Operators
-- [ ] 29-3: Operadores de consulta
-- [ ] 29-4: Updates Simples
-- [ ] 29-5: Updates Complexos - Arrays
-- [ ] 29-6: Projeto - Commerce
+- [x] 29-1: Introdução - NoSQL
+- [x] 29-1: MongoDB - Introdução
+- [x] 29-2: Filter Operators
+- [x] 29-3: Operadores de consulta
+- [x] 29-4: Updates Simples
+- [x] 29-5: Updates Complexos - Arrays
+- [x] 29-6: Projeto - Commerce
 
 ##### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: MongoDB e arquitetura MSC
-- [ ] 30-2: MongoDB e POO
-- [ ] 30-3: Projeto - Car Shop
+- [x] 30-1: MongoDB e arquitetura MSC
+- [x] 30-2: MongoDB e POO
+- [x] 30-3: Projeto - Car Shop
 
 ##### Bloco 31: MasterClass - VPS, CI/CD
 
-- [ ] 31-1: Dia 1
-- [ ] 31-2: Dia 2
+- [x] 31-1: Dia 1
+- [x] 31-2: Dia 2
 
 ##### Bloco 32: Projeto - App de Delivery
 
-- [ ] 32-1: Projeto - App de Delivery
+- [x] 32-1: Projeto - App de Delivery
 
 
 ## Ciência da Computação :hourglass_flowing_sand:
